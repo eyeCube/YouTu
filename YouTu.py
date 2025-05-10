@@ -106,6 +106,14 @@ first_time = True
 while not broken:
 
     root = Tk()
+    root.title("YouTu")
+
+    try:
+        root.iconbitmap("./ytdl.ico")
+    except Exception as e:
+        print(f"Error loading image: {e}")
+        print("Please make sure the image file exists and is a supported format (e.g., PNG, GIF).")
+    
     frame = ttk.Frame(root, padding=10)
     frame.grid()
     
