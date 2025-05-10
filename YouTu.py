@@ -176,7 +176,7 @@ for did, dvar in directory_input.items():
 
     for ti in range(2):
         fba = " -f -ba" if audio_only else ' -f "bv*+ba/b"'
-        command = f'"./yt-dlp.exe" -P {destination} -o "%(uploader)s/%(title)s.%(ext)s" -o "subtitle:%(uploader)s/subs/%(title)s.%(ext)s" --merge-output-format mp4 {dr} --write-subs{fba} -S "res:{quality}"'
+        command = f'"./yt-dlp.exe" -P "{destination}" -o "%(uploader)s/%(title)s.%(ext)s" -o "subtitle:%(uploader)s/subs/%(title)s.%(ext)s" --merge-output-format mp4 {dr} --write-subs{fba} -S "res:{quality}"'
         print(command)
         
         try:
