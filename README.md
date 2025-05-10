@@ -1,4 +1,4 @@
-# YouTu
+# YouTu.exe
 Featherweight YouTube downloader by Jane Wharton
 
 How to Use:
