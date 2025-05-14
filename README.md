@@ -1,7 +1,13 @@
 # YouTu.exe
 Featherweight YouTube downloader by Jane Wharton
 
-How to Use:
+Installation guide:
+
+* Click the green "<> Code" button
+* Click "Download ZIP"
+* Unzip the folder and put the contents in your Program Files
+
+User guide:
 
 * Run YouTu.exe
 * Select a destination folder
